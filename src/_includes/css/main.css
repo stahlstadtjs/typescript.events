@@ -163,3 +163,16 @@ h1, h2 {
 h2 {
   margin-top: 4rem;
 }
+
+footer {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-top: 7rem;
+}
+
+footer a {
+  color: dodgerblue;
+  text-decoration: none;
+  font-weight: bold;
+}
