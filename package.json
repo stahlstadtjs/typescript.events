@@ -1,0 +1,25 @@
+{
+  "name": "typescript.events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "@11ty/eleventy --watch",
+    "build": "@11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stahlstadtjs/typescript.events.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stahlstadtjs/typescript.events/issues"
+  },
+  "homepage": "https://github.com/stahlstadtjs/typescript.events#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}
