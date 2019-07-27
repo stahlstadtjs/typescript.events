@@ -167,14 +167,13 @@ h2 {
 }
 
 footer {
-  background: white;
+  color: white;
   padding: 1rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   margin-top: 7rem;
 }
 
 footer a {
-  color: dodgerblue;
+  color: #003E6B;
   text-decoration: none;
   font-weight: bold;
 }
