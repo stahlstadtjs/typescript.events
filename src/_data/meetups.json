@@ -28,5 +28,10 @@
     "twitter": "https://twitter.com/ParisTypeScript",
     "meetup": "https://www.meetup.com/Paris-Typescript/",
     "image": "/img/meetups/paris-ts.jpg"
+  },
+  {
+    "title": "TypeScript NYC",
+    "meetup": "https://www.meetup.com/TypeScriptNYC/",
+    "image": "/img/meetups/typescript-nyc.png"
   }
 ]
