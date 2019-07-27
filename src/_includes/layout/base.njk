@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ title }}</title>
+
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="">
+
+  {%- set css -%}
+    {% include "css/main.css" %}
+  {%- endset %}
+  <style>
+    {{ css | cssmin | safe }}
+  </style>
+</head>
+
+<body class="grid">
+
+  {% include "icons.njk" %}
+
+  {{ content | safe }}
+
+</body>
+
+</html>

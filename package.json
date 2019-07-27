@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "@11ty/eleventy --watch",
-    "build": "@11ty/eleventy"
+    "dev": "eleventy --watch --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/stahlstadtjs/typescript.events#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.8.3",
+    "clean-css": "^4.2.1"
   }
 }

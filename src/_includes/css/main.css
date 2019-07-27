@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem;
+  font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #F0F4F8;
+}
+
+.meetups {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.meetup-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.event {
+  border-radius: 2rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+.meetup {
+  padding: 2rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.meetup.extra {
+  padding: 1rem;
+}
+
+.meetup-links {
+  border-radius: 2rem;
+  background-color: #003E6B;
+  display: flex;
+  justify-content: center;
+}
+
+.meetup-link {
+  display: block;
+  text-decoration: none;
+}
+
+.meetup-title {
+  text-align: center;
+  color: #003E6B;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #DCEEFB;
+  margin: 1rem;
+  transition: all 0.4s ease;
+}
+
+.meetup-link:hover .icon {
+  fill: #84C5F4;
+}
+
+.add-meetup {
+  flex-grow: 1;
+  text-decoration: none;
+  color: #9FB3C8;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+
+.add-meetup:hover {
+  color: #0F609B;
+}
+
+.plus {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  fill: currentColor;
+  border-radius: 50%;
+  margin: 2rem;
+  border: 3px dashed currentColor;
+}
+
+.conf {
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.conf:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.conferences {
+  display: grid;
+  list-style-type: none;
+  padding: 0;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 2rem;
+}
+
+.conf-logo {
+  margin: 2rem auto;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.conf-card {
+  background-color: rgba(255,255,255,1);
+  text-decoration: none;
+  color: #4098D7;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.conf-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.conf-location,
+.conf-date {
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.7em;
+  font-size: 1.2rem;
+}
+
+h2 {
+  margin-top: 4rem;
+}

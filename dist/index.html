@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TypeScript events</title>
+
+  <meta name="description" content="Conferences, meetups, talks and videos around TypeScript">
+  <meta property="og:url" content="https://typescript.events">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TypeScript Events">
+  <meta property="og:description" content="Conferences, meetups, talks and videos around TypeScript">
+  <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TypeScript Events">
+  <meta name="twitter:description" content="Conferences, meetups, talks and videos around TypeScript">
+  <meta name="twitter:image" content="">
+  <style>
+    *{box-sizing:border-box}body{margin:3rem;font-family:"Fira Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";background:#f0f4f8}.meetups{list-style-type:none;padding:0;display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.meetup-logo{display:block;margin:0 auto}.event{border-radius:2rem;box-shadow:0 0 2px rgba(0,0,0,.3);background-color:#fff}.meetup{padding:2rem 1rem 1rem;display:flex;flex-direction:column;justify-content:space-between}.meetup.extra{padding:1rem}.meetup-links{border-radius:2rem;background-color:#003e6b;display:flex;justify-content:center}.meetup-link{display:block;text-decoration:none}.meetup-title{text-align:center;color:#003e6b}.icon{width:20px;height:20px;fill:#dceefb;margin:1rem;transition:all .4s ease}.meetup-link:hover .icon{fill:#84c5f4}.add-meetup{flex-grow:1;text-decoration:none;color:#9fb3c8;text-decoration:none;display:flex;flex-direction:column;justify-content:center;align-items:center;transition:all .4s ease}.add-meetup:hover{color:#0f609b}.plus{display:block;width:5rem;height:5rem;fill:currentColor;border-radius:50%;margin:2rem;border:3px dashed currentColor}.conf{background-size:cover;background-position:center center;display:flex;flex-direction:column;text-align:center;box-shadow:0 0 5px rgba(0,0,0,.3);overflow:hidden;text-decoration:none;transition:all .4s ease}.conf:hover{box-shadow:0 0 8px rgba(0,0,0,.3)}.conferences{display:grid;list-style-type:none;padding:0;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));grid-gap:2rem}.conf-logo{margin:2rem auto;border-radius:50%;box-shadow:0 0 5px rgba(255,255,255,.3)}.conf-card{background-color:rgba(255,255,255,1);text-decoration:none;color:#4098d7;padding:1rem;box-shadow:0 0 5px rgba(255,255,255,.3)}.conf-title{font-size:2rem;margin:0}.conf-date,.conf-location{font-weight:700;margin:0;line-height:1.7em;font-size:1.2rem}h2{margin-top:4rem}
+  </style>
+</head>
+
+<body class="grid">
+
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <defs>
+    <symbol viewBox="0 0 32 32" id="meetup"><path d="M31.971 26.984c-0.405-2.575-5.165-0.592-5.461-3.412-0.417-3.997 5.533-12.612 5.063-15.963-0.417-3.007-2.455-3.64-4.22-3.675-1.712-0.027-2.164 0.243-2.744 0.58-0.337 0.195-0.816 0.58-1.483-0.055-0.445-0.424-0.743-0.715-1.207-1.092-0.243-0.189-0.621-0.432-1.26-0.527-0.635-0.095-1.464 0-1.989 0.223-0.527 0.229-0.936 0.621-1.368 0.999-0.431 0.377-1.529 1.597-2.548 1.145-0.447-0.193-1.944-0.941-3.029-1.407-2.084-0.903-5.096 0.56-6.181 2.488-1.617 2.865-4.8 14.137-5.285 15.62-1.079 3.336 1.376 6.053 4.679 5.899 1.403-0.068 2.333-0.573 3.216-2.184 0.512-0.924 5.305-13.449 5.664-14.057 0.263-0.431 1.125-1.004 1.853-0.633 0.735 0.377 0.883 1.159 0.775 1.895-0.181 1.193-3.559 8.839-3.695 9.7-0.216 1.471 0.479 2.285 2.009 2.365 1.045 0.055 2.089-0.316 2.912-1.88 0.465-0.869 5.799-11.555 6.269-12.269 0.52-0.781 0.937-1.039 1.471-1.011 0.412 0.020 1.065 0.128 0.904 1.355-0.163 1.207-4.457 9.040-4.901 10.961-0.608 2.569 0.803 5.165 3.121 6.304 1.483 0.728 7.96 1.968 7.436-1.369z"></path></symbol> 
+    <symbol viewBox="0 0 32 32" id="twitter"><path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path></symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M5 13h6v6c0 0.552 0.448 1 1 1s1-0.448 1-1v-6h6c0.552 0 1-0.448 1-1s-0.448-1-1-1h-6v-6c0-0.552-0.448-1-1-1s-1 0.448-1 1v6h-6c-0.552 0-1 0.448-1 1s0.448 1 1 1z"></path></symbol>
+  </defs>
+</svg>
+
+
+  
+<h1>TypeScript conferences and meetups around the globe</h1>
+
+<h2>Conferences</h2>
+
+<div class="conferences">
+  
+    <a href="https://tsconf.io" class="conf event" style="background-image: url(/img/conferences/tsconf-2019-backdrop.jpg)">
+  <img class="conf-logo" src="/img/conferences/tsconf-2019-logo.png" alt="Logo of TSConf" width="200">
+  <div class="conf-card">
+    <h3 class="conf-title">TSConf</h3>
+    <p class="conf-location">Seattle, WA</p>
+    <p class="conf-date">October 11th, 2019</p>
+  </div>
+</a>
+
+  
+    <a href="https://tsconf.eu" class="conf event" style="background-image: url(/img/conferences/tsconf-eu-2020-backdrop.jpg)">
+  <img class="conf-logo" src="/img/conferences/tsconf-eu-2020-logo.jpg" alt="Logo of TSConf.EU" width="200">
+  <div class="conf-card">
+    <h3 class="conf-title">TSConf.EU</h3>
+    <p class="conf-location">Linz, Austria</p>
+    <p class="conf-date">Spring 2020</p>
+  </div>
+</a>
+
+  
+</div>
+
+<h2>Meetups</h2>
+
+<ul class="meetups">
+  
+    <li class="meetup event">
+  <img class="meetup-logo" src="/img/meetups/london-ts.jpg" alt="Logo of London TypeScript Meetup" width="200">
+  <h3 class="meetup-title">London TypeScript Meetup</h3>
+  <div class="meetup-links">
+    <a class="meetup-link" href="https://twitter.com/LndTypeScript">
+      <svg class="icon" title="Twitter link of London TypeScript Meetup"><use xlink:href="#twitter"></use></svg>
+    </a>
+    <a class="meetup-link" href="https://www.meetup.com/London-Typescript-Meetup/">
+      <svg class="icon" title="Meetup link of London TypeScript Meetup"><use xlink:href="#meetup"></use></svg>
+    </a>
+  </div>
+</li>
+
+  
+    <li class="meetup event">
+  <img class="meetup-logo" src="/img/meetups/dublin-ts.jpg" alt="Logo of Dublin TypeScript Meetup" width="200">
+  <h3 class="meetup-title">Dublin TypeScript Meetup</h3>
+  <div class="meetup-links">
+    <a class="meetup-link" href="https://twitter.com/DubTypeScript">
+      <svg class="icon" title="Twitter link of Dublin TypeScript Meetup"><use xlink:href="#twitter"></use></svg>
+    </a>
+    <a class="meetup-link" href="https://www.meetup.com/Dublin-TypeScript-Meetup/">
+      <svg class="icon" title="Meetup link of Dublin TypeScript Meetup"><use xlink:href="#meetup"></use></svg>
+    </a>
+  </div>
+</li>
+
+  
+    <li class="meetup event">
+  <img class="meetup-logo" src="/img/meetups/wroclaw-ts.jpg" alt="Logo of Wroclaw TypeScript" width="200">
+  <h3 class="meetup-title">Wroclaw TypeScript</h3>
+  <div class="meetup-links">
+    <a class="meetup-link" href="https://twitter.com/WrocTypeScript">
+      <svg class="icon" title="Twitter link of Wroclaw TypeScript"><use xlink:href="#twitter"></use></svg>
+    </a>
+    <a class="meetup-link" href="https://www.meetup.com/WrocTypeScript/">
+      <svg class="icon" title="Meetup link of Wroclaw TypeScript"><use xlink:href="#meetup"></use></svg>
+    </a>
+  </div>
+</li>
+
+  
+    <li class="meetup event">
+  <img class="meetup-logo" src="/img/meetups/warsaw-ts.jpg" alt="Logo of Warsaw TypeScript" width="200">
+  <h3 class="meetup-title">Warsaw TypeScript</h3>
+  <div class="meetup-links">
+    <a class="meetup-link" href="https://twitter.com/wwatypescript">
+      <svg class="icon" title="Twitter link of Warsaw TypeScript"><use xlink:href="#twitter"></use></svg>
+    </a>
+    <a class="meetup-link" href="https://www.meetup.com/Warsaw-Typescript/">
+      <svg class="icon" title="Meetup link of Warsaw TypeScript"><use xlink:href="#meetup"></use></svg>
+    </a>
+  </div>
+</li>
+
+  
+    <li class="meetup event">
+  <img class="meetup-logo" src="/img/meetups/paris-ts.jpg" alt="Logo of Paris TypeScript" width="200">
+  <h3 class="meetup-title">Paris TypeScript</h3>
+  <div class="meetup-links">
+    <a class="meetup-link" href="https://twitter.com/ParisTypeScript">
+      <svg class="icon" title="Twitter link of Paris TypeScript"><use xlink:href="#twitter"></use></svg>
+    </a>
+    <a class="meetup-link" href="https://www.meetup.com/Paris-Typescript/">
+      <svg class="icon" title="Meetup link of Paris TypeScript"><use xlink:href="#meetup"></use></svg>
+    </a>
+  </div>
+</li>
+
+  
+  <li class="meetup event extra">
+    <a class="add-meetup" href="https://github.com/stahlstadtjs/typescript.events">
+      <svg class="plus"><use xlink:href="#icon-plus"/></svg>
+      Add your own
+    </a>
+  </li>
+</ul>
+
+
+</body>
+
+</html>

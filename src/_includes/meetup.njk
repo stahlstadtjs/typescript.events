@@ -1,0 +1,12 @@
+<li class="meetup event">
+  <img class="meetup-logo" src="{{item.image}}" alt="Logo of {{ item.title }}" width="200">
+  <h3 class="meetup-title">{{ item.title }}</h3>
+  <div class="meetup-links">
+    <a class="meetup-link" href="{{item.twitter}}">
+      <svg class="icon" title="Twitter link of {{ item.title }}"><use xlink:href="#twitter"></use></svg>
+    </a>
+    <a class="meetup-link" href="{{item.meetup}}">
+      <svg class="icon" title="Meetup link of {{ item.title }}"><use xlink:href="#meetup"></use></svg>
+    </a>
+  </div>
+</li>

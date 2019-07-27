@@ -1,0 +1,27 @@
+---
+layout: layout/base.njk
+---
+
+<h1>TypeScript conferences and meetups around the globe</h1>
+
+<h2>Conferences</h2>
+
+<div class="conferences">
+  {% for item in conferences %}
+    {% include "conference.njk" %}
+  {% endfor %}
+</div>
+
+<h2>Meetups</h2>
+
+<ul class="meetups">
+  {% for item in meetups %}
+    {% include "meetup.njk" %}
+  {% endfor %}
+  <li class="meetup event extra">
+    <a class="add-meetup" href="https://github.com/stahlstadtjs/typescript.events">
+      <svg class="plus"><use xlink:href="#icon-plus"/></svg>
+      Add your own
+    </a>
+  </li>
+</ul>

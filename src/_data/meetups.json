@@ -1,0 +1,32 @@
+[
+  {
+    "title": "London TypeScript Meetup",
+    "twitter": "https://twitter.com/LndTypeScript",
+    "meetup": "https://www.meetup.com/London-Typescript-Meetup/",
+    "image": "/img/meetups/london-ts.jpg"
+  },
+  {
+    "title": "Dublin TypeScript Meetup",
+    "twitter": "https://twitter.com/DubTypeScript",
+    "meetup": "https://www.meetup.com/Dublin-TypeScript-Meetup/",
+    "image": "/img/meetups/dublin-ts.jpg"
+  },
+  {
+    "title": "Wroclaw TypeScript",
+    "twitter": "https://twitter.com/WrocTypeScript",
+    "meetup": "https://www.meetup.com/WrocTypeScript/",
+    "image": "/img/meetups/wroclaw-ts.jpg"
+  },
+  {
+    "title": "Warsaw TypeScript",
+    "twitter": "https://twitter.com/wwatypescript",
+    "meetup": "https://www.meetup.com/Warsaw-Typescript/",
+    "image": "/img/meetups/warsaw-ts.jpg"
+  },
+  {
+    "title": "Paris TypeScript",
+    "twitter": "https://twitter.com/ParisTypeScript",
+    "meetup": "https://www.meetup.com/Paris-Typescript/",
+    "image": "/img/meetups/paris-ts.jpg"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "TSConf",
+    "location": "Seattle, WA",
+    "url": "https://tsconf.io",
+    "date": "October 11th, 2019",
+    "back": "/img/conferences/tsconf-2019-backdrop.jpg",
+    "icon": "/img/conferences/tsconf-2019-logo.png"
+  },
+  {
+    "title": "TSConf.EU",
+    "location": "Linz, Austria",
+    "url": "https://tsconf.eu",
+    "date": "Spring 2020",
+    "back": "/img/conferences/tsconf-eu-2020-backdrop.jpg",
+    "icon": "/img/conferences/tsconf-eu-2020-logo.jpg"
+  }
+]
