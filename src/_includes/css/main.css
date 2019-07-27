@@ -9,6 +9,7 @@ body {
   background-size: 1800% 1800%;
   animation: rainbow 120s ease infinite; */
   background: rgb(30, 17, 38);
+  background: linear-gradient(124deg, #1e79ca, #80cefc)
 }
 
 @keyframes rainbow { 
