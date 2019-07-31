@@ -50,5 +50,11 @@
     "twitter": "https://twitter.com/typescriptjp",
     "meetup": "https://typescript-jp.dev",
     "image": "/img/meetups/typescript-jp.png"
+  },
+  {
+    "title": "Sevilla TypeScript",
+    "twitter": "https://twitter.com/SVQTypeScript",
+    "meetup": "https://www.meetup.com/Sevilla-TypeScript/",
+    "image": "/img/meetups/sqvts.jpg"
   }
 ]
