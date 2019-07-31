@@ -123,6 +123,20 @@ h1, h2 {
   transition: all 0.4s ease;
 }
 
+.conf-container {
+  display: relative;
+}
+
+.tickets-available {
+  border-radius: 2rem;
+  background-color: white;
+  color: #1e79ca;
+  font-weight: bold;
+  position: absolute;
+  padding: 0.5rem;
+  transform: rotate(-15deg) translate(-0.5rem, -0.5rem)
+}
+
 .conf:hover {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
@@ -170,6 +184,7 @@ h1, h2 {
 
 h2 {
   margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 footer {

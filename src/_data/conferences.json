@@ -5,7 +5,8 @@
     "url": "https://tsconf.io",
     "date": "October 11th, 2019",
     "back": "/img/conferences/tsconf-2019-backdrop.jpg",
-    "icon": "/img/conferences/tsconf-2019-logo.png"
+    "icon": "/img/conferences/tsconf-2019-logo.png",
+    "tickets": true
   },
   {
     "title": "TSConf.EU",
