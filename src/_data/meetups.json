@@ -44,5 +44,11 @@
     "twitter": "https://twitter.com/Milano_TS",
     "meetup": "https://www.meetup.com/MilanoTS/",
     "image": "/img/meetups/milano-ts.jpg"
+  },
+  {
+    "title": "TypeScript JP",
+    "twitter": "https://twitter.com/typescriptjp",
+    "meetup": "https://typescript-jp.dev",
+    "image": "/img/meetups/typescript-jp.png"
   }
 ]
