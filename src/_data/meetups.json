@@ -38,5 +38,11 @@
     "title": "Phoenix TypeScript",
     "meetup": "https://www.meetup.com/Phoenix-TypeScript/",
     "image": "https://halfstackconf.com/assets/images/phxts.svg"
+  },
+  {
+    "title": "Milano TS",
+    "twitter": "https://twitter.com/Milano_TS",
+    "meetup": "https://www.meetup.com/MilanoTS/",
+    "image": "/img/meetups/milano-ts.jpg"
   }
 ]
