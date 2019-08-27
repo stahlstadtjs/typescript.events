@@ -6,6 +6,12 @@
     "image": "/img/meetups/london-ts.jpg"
   },
   {
+  "title": "Typescript Brazil Meetup",
+  "twitter": "https://twitter.com/tsbrmeetup",
+  "meetup": "https://www.meetup.com/typescriptbr/",
+  "image": "/img/meetups/brazil-ts.jpg"
+  },
+  {
     "title": "Dublin TypeScript Meetup",
     "twitter": "https://twitter.com/DubTypeScript",
     "meetup": "https://www.meetup.com/Dublin-TypeScript-Meetup/",
