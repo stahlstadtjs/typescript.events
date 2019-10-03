@@ -7,8 +7,14 @@
     "back": "/img/conferences/tsconf-2019-backdrop.jpg",
     "icon": "/img/conferences/tsconf-2019-logo.png",
     "tickets": true
-  },
-  {
+  },{
+    "title": "TSConf Japan",
+    "location": "Tokyo",
+    "url": "https://tsconf.jp",
+    "date": "February 22nd, 2020",
+    "back": "/img/conferences/tsconf-jp-backdrop.jpg",
+    "icon": "/img/conferences/tsconf-jp-logo.webp"
+  },{
     "title": "TSConf.EU",
     "location": "Linz, Austria",
     "url": "https://tsconf.eu",
