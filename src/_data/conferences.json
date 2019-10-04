@@ -8,6 +8,15 @@
     "icon": "/img/conferences/tsconf-2019-logo.png",
     "tickets": true
   },{
+    "title": "TSConf IT",
+    "location": "Desenzano del Garda, Italy",
+    "url": "https://ts-conf.it/",
+    "date": "October 25th, 2019",
+    "back": "/img/conferences/tsconf-it.jpg",
+    "icon": "/img/conferences/tsconf-it-2019-logo.png",
+    "tickets": true
+  },
+  {
     "title": "TSConf Japan",
     "location": "Tokyo",
     "url": "https://tsconf.jp",
