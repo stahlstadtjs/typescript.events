@@ -30,6 +30,11 @@
     "image": "/img/meetups/warsaw-ts.jpg"
   },
   {
+    "title": "Krakow TypeScript User Group",
+    "meetup": "https://www.meetup.com/typescript-krakow/",
+    "image": "/img/meetups/ktug.jpg"
+  },
+  {
     "title": "Paris TypeScript",
     "twitter": "https://twitter.com/ParisTypeScript",
     "meetup": "https://www.meetup.com/Paris-Typescript/",
