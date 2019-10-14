@@ -8,13 +8,23 @@
     "icon": "/img/conferences/tsconf-2019-logo.png",
     "tickets": true
   },{
-    "title": "TSConf Japan",
+    "title": "TSConf IT",
+    "location": "Desenzano del Garda, Italy",
+    "url": "https://ts-conf.it/",
+    "date": "October 25th, 2019",
+    "back": "/img/conferences/tsconf-it.jpg",
+    "icon": "/img/conferences/tsconf-it-2019-logo.png",
+    "tickets": true
+  },
+  {
+    "title": "TSConf JP",
     "location": "Tokyo",
     "url": "https://tsconf.jp",
     "date": "February 22nd, 2020",
     "back": "/img/conferences/tsconf-jp-backdrop.jpg",
-    "icon": "/img/conferences/tsconf-jp-logo.webp"
-  },{
+    "icon": "/img/conferences/tsconf-jp-logo.png"
+  },
+  {
     "title": "TSConf.EU",
     "location": "Linz, Austria",
     "url": "https://tsconf.eu",
